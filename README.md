@@ -102,7 +102,7 @@ source env/bin/activate
 
 On Windows
 ```
-.\env\Scripts\activate
+.\env\Scripts\activate.bat
 ```
 #### Step 6: Installing Django in virtualenv
 
