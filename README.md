@@ -23,7 +23,7 @@ Run the downloaded Installer to install python as any other software in windows.
 
 ##### Step 3: Check Installation
 
-open a powershell window and run `py --version` to check if python is installed.
+open a powershell window and run `python --version` to check if python is installed.
 the output should be something like
 
 ```
