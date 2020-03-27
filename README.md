@@ -17,11 +17,13 @@
 ##### Step 2: Run the Installer
 
 Run the downloaded Installer to install python as any other software in windows.
+
+![](https://files.realpython.com/media/win-install-dialog.40e3ded144b0.png)
 >Important: You want to be sure to check the box that says Add Python 3.x to PATH as shown to ensure that the interpreter will be placed in your execution path.
 
 ##### Step 3: Check Installation
 
-open a powershell window and run `python --version` to check if python is installed.
+open a powershell window and run `py --version` to check if python is installed.
 the output should be something like
 
 ```
@@ -114,5 +116,5 @@ pip install Django
 
 ### Refrences
 
-+ [Python Installation](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
-+ [Virtual Environment Installation](https://realpython.com/installing-python/)
++ [Virtual Environment Installation](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
++ [Python Installation](https://realpython.com/installing-python/)
