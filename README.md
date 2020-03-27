@@ -53,7 +53,7 @@ and run the following command:
 
 ### 2) Django project setup
 
-now you have python installed in your machines, Fire up a terminal window(powershell for windows) and follow these steps to setup a dummy project
+now you have python installed in your machines, Fire up a terminal window(command prompt for windows) and follow these steps to setup a dummy project
 #### Step 1: Install pip
 Python now comes with pip by default. But most of the time, it comes with an old version. it is always a good practice to upgrade pip to the latest version
 
@@ -90,7 +90,7 @@ cd django_project
 
 if you have python3 this command will generate a virtuan environment by the name of `env`. If you have python2 replace `venv` with `virtualenv`.
 ```
-python3 -m venv env
+python -m venv env
 ```
 
 #### Step 5: Activating the virtual environment
@@ -112,6 +112,39 @@ Run the following command to install django in your current active virtual envir
 ```
 pip install Django
 ```
+
+to check if it is installed properly run 
+```
+python -m django --version
+```
+### Creating a django project
+
+To see if everything works fine we will create a django project.
+
+from the last step continue by running
+```
+django-admin startproject mysite
+```
+to create a new project.
+
+now there would be a folder created by the name of `mysite`.
+
+#### Running django server 
+go inside that folder 
+```
+cd mysite
+```
+and run 
+```
+python manage.py migrate
+```
+to create migrations.
+
+now run 
+```
+python manage.py runserver
+```
+and go to the address that is shown in the command prompt window.
 
 
 ### Refrences
