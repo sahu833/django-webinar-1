@@ -3,7 +3,7 @@
 ## Basic Requirements
 
 ### 1) Python Installation
-
+Do this only if you don't hav python installed in your machine othewise proceed to 2).
 #### WINDOWS
 
 ##### Step 1: Download the Python 3 Installer
@@ -144,7 +144,11 @@ now run
 ```
 python manage.py runserver
 ```
-and go to the address that is shown in the command prompt window.
+and go to the address that is shown in the command prompt window which would most probably be `127.0.0.1:8000`.
+
+after you enter it in a browser this webpage will be opened.
+
+![django](ss.png)
 
 
 ### Refrences
