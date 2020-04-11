@@ -16,10 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from hello.views import hello_world
-from complain.views import create_complain
+from complain.views import create_complain, CreateComplainView, ListComplainView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/', hello_world),
-    path('complain/', create_complain),
+    path('complain/', CreateComplainView.as_view()),
+    path('complain/list', ListComplainView.as_view()),
 ]
